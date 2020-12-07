@@ -1,0 +1,47 @@
+#Auto generated meta
+stm32-discovery/workspace/.metadata
+stm32-discovery/workspace/RemoteSystemsTempFiles
+stm32-discovery/workspace/disp5/.metadata
+stm32-discovery/workspace/disp5/.settings
+stm32-discovery/workspace/disp5/*.launch
+
+#3rd party
+stm32-discovery/workspace/disp5/Drivers
+stm32-discovery/workspace/disp5/FATFS
+stm32-discovery/workspace/disp5/Middlewares
+stm32-discovery/workspace/disp5/USB_HOST
+stm32-discovery/workspace/disp5/Utilities
+
+#Debug, listings
+stm32-discovery/workspace/disp5/Debug
+stm32-discovery/workspace/disp5/*.ld
+
+#Auto generated header files
+stm32-discovery/workspace/disp5/Core/Startup/
+stm32-discovery/workspace/disp5/Core/Inc/crc.h
+stm32-discovery/workspace/disp5/Core/Inc/dma.h
+stm32-discovery/workspace/disp5/Core/Inc/dma2d.h
+stm32-discovery/workspace/disp5/Core/Inc/gpio.h
+stm32-discovery/workspace/disp5/Core/Inc/ltdc.h
+stm32-discovery/workspace/disp5/Core/Inc/quadspi.h
+stm32-discovery/workspace/disp5/Core/Inc/sdmmc.h
+stm32-discovery/workspace/disp5/Core/Inc/spi.h
+stm32-discovery/workspace/disp5/Core/Inc/stm32f7xx_hal_conf.h
+stm32-discovery/workspace/disp5/Core/Inc/stm32f7xx_hal_it.h
+stm32-discovery/workspace/disp5/Core/Inc/tim.h
+stm32-discovery/workspace/disp5/Core/Inc/usart.h
+
+#Auto generated source files
+stm32-discovery/workspace/disp5/Core/Startup/
+stm32-discovery/workspace/disp5/Core/Src/crc.c
+stm32-discovery/workspace/disp5/Core/Src/dma.c
+stm32-discovery/workspace/disp5/Core/Src/dma2d.c
+stm32-discovery/workspace/disp5/Core/Src/gpio.c
+stm32-discovery/workspace/disp5/Core/Src/ltdc.c
+stm32-discovery/workspace/disp5/Core/Src/quadspi.c
+stm32-discovery/workspace/disp5/Core/Src/sdmmc.c
+stm32-discovery/workspace/disp5/Core/Src/spi.c
+stm32-discovery/workspace/disp5/Core/Src/stm32f7xx_hal_conf.c
+stm32-discovery/workspace/disp5/Core/Src/stm32f7xx_hal_it.c
+stm32-discovery/workspace/disp5/Core/Src/tim.c
+stm32-discovery/workspace/disp5/Core/Src/usart.c
