@@ -4,12 +4,16 @@ This software cyclically generates a 2D map of enviroment using RPLIDAR A3M1 and
 ## Table of contents
 - [Gallery](#gallery)
 - [Desktop version](#desktop-version)
-- [Desktop version](#settng-up-the-project)
-- [Thanks](#thanks)
+  - [Implementation of RPLIDAR on STM32](#implementation-of-rplidar-on-stm32)
+    - [IDE](#ide)
+    - [Connection](#connection)
+    - [Data analysis (UART interrupt)](#data-analysis-uart-interrupt)
+    - [Graphical rendering](#graphical-rendering)
+-[Setting up and building the project](#setting-up-and-building-the-project)
+-[Editing configuration with Cube](#editing-configuration-with-cube)
+-[Thanks](#thanks)
 
-
-## Gallery
-
+## Gallery 
 
 ## Desktop version
 Desktop version of this project developed by my friend can be found here -> https://github.com/knei-knurow/lidar-visualizations. It has many more advanced features which I did not implement in the STM32 version including histogram, adjustable zoom, adjustable "gap filling" between measured points, different display modes and mouse support. I highly recommend you to try RPLIDAR with it, apart from implementing it on STM32 platform.
@@ -105,8 +109,6 @@ The image layers are repetitively swapped so that the currently edited layer is 
 
 ## Editing configuration with Cube
 For any changes in Cube configuration tool, repeat steps 5-10 carefully.
-
-
 
 ## Thanks
 
