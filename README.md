@@ -46,39 +46,59 @@ The image layers are repetitively swapped so, that the currently edited layer is
 0. Clone the repository and make sure you have the latest versions of STM32CubeIDE installed.
 1. Open the downloaded .project file
 
-<img src="/img/steps/step1.png" width="480" align="center"/>
+<p align="center">
+<img src="/img/steps/step1.png" width="480" />
+</p>
+
 
 2. Select "lidar-stm32/stm32-discovery/workspace" as the workspace path
 
-<img src="/img/steps/step2.png" width="480" align="center" />
+<p align="center">
+<img src="/img/steps/step2.png" width="480"  />
+</p>
 
 3. Check if import is successful
 
-![](/img/steps/step3.png?raw=true)
+<p align="center">
+<img src="/img/steps/step3.png" width="576"/>
+</p>
 
 4. Close "Information Center" tab :)
 
-![](/img/steps/step4.png?raw=true)
+<p align="center">
+<img src="/img/steps/step4.png"/>
+</p>
+
 
 5. Rename the `main.cpp` file to `main.c`
 
-![](/img/steps/step6.png?raw=true)
+<p align="center">
+<img src="/img/steps/step6.png" width="576"  />
+</p>
 
 7. Open .ioc device configuration file
 
-![](/img/steps/step7.png?raw=true)
+<p align="center">
+<img src="/img/steps/step7.png" width="576"  />
+</p>
 
 8. Edit the configuration if you want. Then, launch "Device Configuration Tool Code Generation".
 
-![](/img/steps/step8.png?raw=true)
+<p align="center">
+<img src="/img/steps/step8.png" width="576"  />
+</p>
 
 9. Rename `main.c` back  to main.c **and comment out MX_LTDC_INIT() after each time you do it** (main.cpp, line 268)
 
-![](/img/steps/step10.png?raw=true)
+<p align="center">
+<img src="/img/steps/step10.png" width="576"  />
+</p>
 
 10. Built the project (CTRL+B)
 
-![](/img/steps/step11.png?raw=true)
+<p align="center">
+<img src="/img/steps/step11.png" width="576"  />
+</p>
 
 11. Have fun :)
 
