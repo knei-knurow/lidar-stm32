@@ -7,7 +7,7 @@ stm32-discovery/workspace/disp5/*.launch
 
 #Debug, linker files
 stm32-discovery/workspace/disp5/Debug
-stm32-discovery/workspace/disp5/*.ld
+#stm32-discovery/workspace/disp5/*.ld
 
 #Auto generated header files
 stm32-discovery/workspace/disp5/Core/Startup/
@@ -48,6 +48,7 @@ stm32-discovery/workspace/disp5/Core/Src/syscalls.c
 stm32-discovery/workspace/disp5/Core/Src/sysmem.c
 stm32-discovery/workspace/disp5/Core/Src/system_stm32f7xx.c
 stm32-discovery/workspace/disp5/Utilities/Fonts/Release_Notes.html
+
+#ignored extensions
 *.html
-*.html
-*.html
+
