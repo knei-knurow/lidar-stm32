@@ -42,46 +42,50 @@ Note that the MCU itself does not have enough RAM to store a full 480x272 32bpp 
 The image layers are repetitively swapped so, that the currently edited layer is never visible.
 
 
-### Setting up and building the project
-## 0. Clone the repository and make sure you have the latest versions of STM32CubeIDE installed.
-## 1. Open the downloaded .project file
+# Setting up and building the project
+0. Clone the repository and make sure you have the latest versions of STM32CubeIDE installed.
+1. Open the downloaded .project file
 
 ![](/img/steps/step1.png?raw=true)
 
-## 2. Select "lidar-stm32/stm32-discovery/workspace" as the workspace path
+2. Select "lidar-stm32/stm32-discovery/workspace" as the workspace path
 
 ![](/img/steps/step2.png?raw=true)
 
-## 3. Check if import is successful
+3. Check if import is successful
 
 ![](/img/steps/step3.png?raw=true)
 
-## 4. Close "Information Center" tab :)
+4. Close "Information Center" tab :)
 
 ![](/img/steps/step4.png?raw=true)
 
-## 5. Rename the `main.cpp` file to `main.c`
+5. Rename the `main.cpp` file to `main.c`
 
 ![](/img/steps/step6.png?raw=true)
 
-## 7. Open .ioc device configuration file
+7. Open .ioc device configuration file
 
 ![](/img/steps/step7.png?raw=true)
 
-## 8. Edit the configuration if you want. Then, launch "Device Configuration Tool Code Generation".
+8. Edit the configuration if you want. Then, launch "Device Configuration Tool Code Generation".
 
 ![](/img/steps/step8.png?raw=true)
 
-## 9. Rename `main.c` back  to main.c **and comment out MX_LTDC_INIT() after each time you do it** (main.cpp, line 268)
+9. Rename `main.c` back  to main.c **and comment out MX_LTDC_INIT() after each time you do it** (main.cpp, line 268)
 
 ![](/img/steps/step10.png?raw=true)
 
-## 10. Built the project (CTRL+B)
+10. Built the project (CTRL+B)
 
 ![](/img/steps/step11.png?raw=true)
 
-## 11. Have fun :)
+11. Have fun :)
 
-## Gallery
+Gallery
 
 ## Thanks
+
+This project was developed within Electronics and Computer Science Club in Knurów (KNEI for short) where lots of amazing projects and ideas come from. Have a look at our website - https://knei.pl/ - unfortunately, at the moment, only available in Polish. Check out our GitHub too - https://github.com/knei-knurow.
+
+Numerous packages with colourful electronic gadgets like RPLIDAR have been granted to us by our friends from KAMAMI.pl.
