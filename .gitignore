@@ -10,7 +10,6 @@ stm32-discovery/workspace/disp5/Debug
 #stm32-discovery/workspace/disp5/*.ld
 
 #Auto generated header files
-stm32-discovery/workspace/disp5/Core/Startup/
 stm32-discovery/workspace/disp5/Core/Inc/crc.h
 stm32-discovery/workspace/disp5/Core/Inc/dma.h
 stm32-discovery/workspace/disp5/Core/Inc/dma2d.h
@@ -27,7 +26,6 @@ stm32-discovery/workspace/disp5/Core/Inc/usart.h
 stm32-discovery/workspace/disp5/Core/Inc/fmc.h
 
 #Auto generated source files
-stm32-discovery/workspace/disp5/Core/Startup/
 stm32-discovery/workspace/disp5/Core/Src/crc.c
 stm32-discovery/workspace/disp5/Core/Src/dma.c
 stm32-discovery/workspace/disp5/Core/Src/dma2d.c
