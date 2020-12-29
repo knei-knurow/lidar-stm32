@@ -3,7 +3,7 @@ This software cyclically generates a 2D map of enviroment using RPLIDAR A3M1 and
 
 ## Table of contents
 - [Gallery](#gallery)
-- [Brief summary](#brief-summary)
+- [Desktop version](#desktop-version)
 - [Desktop version](#settng-up-the-project)
 - [Thanks](#thanks)
 
@@ -40,7 +40,7 @@ When a complete 360° map is complete, it is transformed into a 2D image placed 
 
 Note that the MCU itself does not have enough RAM to store a full 480x272 32bpp display matrix. Both layers are stored in external SDRAM chip on the board, and they are accessed using BSP_LCD functions (BSP - Board Support Package by STM32). The layers are kept in separate memory banks, in order to prevent delays related to memory access issues.
 
-The image layers are repetitively swapped so, that the currently edited layer is never visible.
+The image layers are repetitively swapped so that the currently edited layer is never visible.
 
 
 # Setting up and building the project
