@@ -136,6 +136,8 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 
 				//Fetch data for THREE points
 				dist_q2[0] = (dist_major << 2);
+
+				//For -Wsign-compare warnings: The following line was copied from SDK and probably should not be changed
 				if((dist_predict1 == 0xFFFFFE00) || (dist_predict1 == 0x1FF)){
 					dist_q2[1] = 0;
 				} else {
@@ -143,6 +145,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 					dist_q2[1] = (dist_predict1 + dist_base1) << 2;
 				}
 
+				//For -Wsign-compare warnings: The following line was copied from SDK and probably should not be changed
 				if((dist_predict1 == 0xFFFFFE00) || (dist_predict2 == 0x1FF)){
 					dist_q2[2] = 0;
 				} else {
