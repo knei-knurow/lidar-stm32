@@ -21,8 +21,10 @@ stm32-discovery/workspace/disp5/Core/Inc/sdmmc.h
 stm32-discovery/workspace/disp5/Core/Inc/spi.h
 stm32-discovery/workspace/disp5/Core/Inc/stm32f7xx_hal_conf.h
 stm32-discovery/workspace/disp5/Core/Inc/stm32f7xx_hal_it.h
+stm32-discovery/workspace/disp5/Core/Inc/stm32f7xx_it.h
 stm32-discovery/workspace/disp5/Core/Inc/tim.h
 stm32-discovery/workspace/disp5/Core/Inc/usart.h
+stm32-discovery/workspace/disp5/Core/Inc/fmc.h
 
 #Auto generated source files
 stm32-discovery/workspace/disp5/Core/Startup/
@@ -34,7 +36,14 @@ stm32-discovery/workspace/disp5/Core/Src/ltdc.c
 stm32-discovery/workspace/disp5/Core/Src/quadspi.c
 stm32-discovery/workspace/disp5/Core/Src/sdmmc.c
 stm32-discovery/workspace/disp5/Core/Src/spi.c
+stm32-discovery/workspace/disp5/Core/Src/stm32f7xx_it.c
 stm32-discovery/workspace/disp5/Core/Src/stm32f7xx_hal_conf.c
 stm32-discovery/workspace/disp5/Core/Src/stm32f7xx_hal_it.c
+stm32-discovery/workspace/disp5/Core/Src/stm32f7xx_hal_msp.c
+stm32-discovery/workspace/disp5/Core/Src/stm32f7xx_hal_timebase_tim.c
 stm32-discovery/workspace/disp5/Core/Src/tim.c
 stm32-discovery/workspace/disp5/Core/Src/usart.c
+stm32-discovery/workspace/disp5/Core/Src/fmc.c
+stm32-discovery/workspace/disp5/Core/Src/syscalls.c
+stm32-discovery/workspace/disp5/Core/Src/sysmem.c
+stm32-discovery/workspace/disp5/Core/Src/system_stm32f7xx.c
