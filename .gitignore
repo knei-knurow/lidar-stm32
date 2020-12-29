@@ -47,3 +47,7 @@ stm32-discovery/workspace/disp5/Core/Src/fmc.c
 stm32-discovery/workspace/disp5/Core/Src/syscalls.c
 stm32-discovery/workspace/disp5/Core/Src/sysmem.c
 stm32-discovery/workspace/disp5/Core/Src/system_stm32f7xx.c
+stm32-discovery/workspace/disp5/Utilities/Fonts/Release_Notes.html
+*.html
+*.html
+*.html
