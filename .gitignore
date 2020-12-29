@@ -5,13 +5,6 @@ stm32-discovery/workspace/disp5/.metadata
 stm32-discovery/workspace/disp5/.settings
 stm32-discovery/workspace/disp5/*.launch
 
-#3rd party
-stm32-discovery/workspace/disp5/Drivers
-stm32-discovery/workspace/disp5/FATFS
-stm32-discovery/workspace/disp5/Middlewares
-stm32-discovery/workspace/disp5/USB_HOST
-stm32-discovery/workspace/disp5/Utilities
-
 #Debug, listings
 stm32-discovery/workspace/disp5/Debug
 stm32-discovery/workspace/disp5/*.ld
