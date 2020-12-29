@@ -50,3 +50,4 @@ stm32-discovery/workspace/disp5/Utilities/Fonts/Release_Notes.html
 #ignored extensions
 *.html
 
+stm32-discovery/workspace/disp5/.mxproject

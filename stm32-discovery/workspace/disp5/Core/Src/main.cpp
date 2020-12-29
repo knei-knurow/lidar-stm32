@@ -266,7 +266,7 @@ int main(void)
   MX_CRC_Init();
   MX_DMA2D_Init();
   MX_FMC_Init();
-  //MX_LTDC_Init();
+  MX_LTDC_Init();
   MX_QUADSPI_Init();
   MX_SDMMC1_SD_Init();
   MX_SPI2_Init();
