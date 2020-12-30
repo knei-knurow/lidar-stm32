@@ -9,9 +9,9 @@ This software cyclically generates a 2D map of environment using RPLIDAR A3M1 an
    - [Connection](#connection)
    - [Data analysis (UART interrupt)](#data-analysis-uart-interrupt)
    - [Graphical rendering](#graphical-rendering)
--[Setting up and building the project](#setting-up-and-building-the-project)
--[Editing configuration with Cube](#editing-configuration-with-cube)
--[Thanks](#thanks)
+- [Setting up and building the project](#setting-up-and-building-the-project)
+- [Editing configuration with Cube](#editing-configuration-with-cube)
+- [Thanks](#thanks)
 
 ## Gallery 
 
