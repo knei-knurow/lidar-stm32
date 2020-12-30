@@ -131,14 +131,17 @@ This project was created with use of the following sources
 - RPLIDAR Communication protocol specifications
 - RPLIDAR SDK sources
 
-... all of which can be found [here](https://www.slamtec.com/en/Support#rplidar-a-series)
+... all of which can be found on [RPLIDAR A Series support page](https://www.slamtec.com/en/Support#rplidar-a-series)
 
 and
 
-- [STM32Cube BSP drivers development guidelines](https://www.st.com/resource/en/user_manual/dm00440740-stm32cube-bsp-drivers-development-guidelines-stmicroelectronics.pdf)
-- 
-- LTDC Reference manual
-- HAL Reference manual
+- [UM2298 User manual: STM32Cube BSP drivers development guidelines](https://www.st.com/resource/en/user_manual/dm00440740-stm32cube-bsp-drivers-development-guidelines-stmicroelectronics.pdf)
+- [AN4861 Application note: LCD-TFT display controller (LTDC) on STM32 MCUs](https://www.st.com/resource/en/application_note/dm00287603-lcdtft-display-controller-ltdc-on-stm32-mcus-stmicroelectronics.pdf)
+- [UM1907 User manual: Discovery kit for STM32F7 Series with STM32F746NG MCU](https://www.st.com/resource/en/user_manual/dm00190424-discovery-kit-for-stm32f7-series-with-stm32f746ng-mcu-stmicroelectronics.pdf)
+
+provided by ST Microelectronics. 
+
+Last access: 2020-12-30 for all sources.
 
 
 ## Thanks
