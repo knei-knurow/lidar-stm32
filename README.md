@@ -1,5 +1,5 @@
 # Lidar Visualizations on STM32
-This software cyclically generates a 2D map of enviroment using RPLIDAR A3M1 and prints it on the integrated display of STM32F746G-DISCO board.
+This software cyclically generates a 2D map of environment using RPLIDAR A3M1 and prints it on the integrated display of STM32F746G-DISCO board.
 
 ## Table of contents
 - [Gallery](#gallery)
@@ -9,16 +9,16 @@ This software cyclically generates a 2D map of enviroment using RPLIDAR A3M1 and
    - [Connection](#connection)
    - [Data analysis (UART interrupt)](#data-analysis-uart-interrupt)
    - [Graphical rendering](#graphical-rendering)
--[Setting up and building the project](#setting-up-and-building-the-project)
--[Editing configuration with Cube](#editing-configuration-with-cube)
--[Thanks](#thanks)
+- [Setting up and building the project](#setting-up-and-building-the-project)
+- [Editing configuration with Cube](#editing-configuration-with-cube)
+- [Thanks](#thanks)
 
 ## Gallery 
 
 ## Desktop version
 Desktop version of this project developed by my friend can be found here -> https://github.com/knei-knurow/lidar-visualizations. It has many more advanced features which I did not implement in the STM32 version including histogram, adjustable zoom, adjustable "gap filling" between measured points, different display modes and mouse support. I highly recommend you to try RPLIDAR with it, apart from implementing it on STM32 platform.
 
-##Implementation of RPLIDAR on STM32
+## Implementation of RPLIDAR on STM32
 RPLIDAR A3M1 is connected through UART to STM32 board. The speed of motor is controlled through hardware PWM on STM32. The MCU sets up continuous measurement and then receives packets of data from lidar continuously through DMA, and processes the data in UART interrupt. When a full 360° map is generated, the map (with colors representing the distances) is printed on the screen. The software automatically scales the map, so that it fits perfectly to the screen. The most distant point is marked, and the distance[m] from it is printed on the screen. 
 
 ### IDE
@@ -37,7 +37,7 @@ The software uses the fastest data transmission mode of RPLIDAR A3M1 (dense/ultr
 
 The data is stored in a buffer containing three 132B "data blocks" received from the lidar: "Previous", "Current", "Next". When a new block is completely received through DMA, an interrupt is handled. This block is the "Current" block. The interrupt sets up listening for the "Next" block, and the map data consisting of angle + distance pairs is calculated using the comparison between "Current" and "Previous" block. Two consecutive blocks are always necessary to calculate the data. 
 
-The calculated data is then stored in `f_angles[]` and `f_distances[]` array, where for any point `k`, `f_angles[k]` corresponds to the angle (float \[0°-360°\[ ) and f_distances[`k`] is the distance from the lidar in milimetres. Use this data as you wish. 
+The calculated data is then stored in `f_angles[]` and `f_distances[]` array, where for any point `k`, `f_angles[k]` corresponds to the angle (float \[0°-360°\[ ) and f_distances[`k`] is the distance from the lidar in millimetres. Use this data as you wish. 
 
 ### Graphical rendering
 When a complete 360° map is complete, it is transformed into a 2D image placed in one of two present layers
