@@ -11,7 +11,7 @@ This software cyclically generates a 2D map of environment using RPLIDAR A3M1 an
    - [Graphical rendering](#graphical-rendering)
 - [Setting up and building the project](#setting-up-and-building-the-project)
 - [Editing configuration with Cube](#editing-configuration-with-cube)
-- [Sources] (#sources)
+- [Sources](#sources)
 - [Thanks](#thanks)
 
 ## Gallery 
@@ -126,15 +126,13 @@ The image layers are repetitively swapped so that the currently edited layer is 
 For any changes in Cube configuration tool, repeat steps 5-10 carefully.
 
 ## Sources
+
 This project was created with use of the following sources
 - RPLIDAR A3M1 Datasheet
 - RPLIDAR Communication protocol specifications
 - RPLIDAR SDK sources
 
-... all of which can be found on [RPLIDAR A Series support page](https://www.slamtec.com/en/Support#rplidar-a-series)
-
-and
-
+... all of which can be found on [RPLIDAR A Series support page](https://www.slamtec.com/en/Support#rplidar-a-series) and
 - [UM2298 User manual: STM32Cube BSP drivers development guidelines](https://www.st.com/resource/en/user_manual/dm00440740-stm32cube-bsp-drivers-development-guidelines-stmicroelectronics.pdf)
 - [AN4861 Application note: LCD-TFT display controller (LTDC) on STM32 MCUs](https://www.st.com/resource/en/application_note/dm00287603-lcdtft-display-controller-ltdc-on-stm32-mcus-stmicroelectronics.pdf)
 - [UM1907 User manual: Discovery kit for STM32F7 Series with STM32F746NG MCU](https://www.st.com/resource/en/user_manual/dm00190424-discovery-kit-for-stm32f7-series-with-stm32f746ng-mcu-stmicroelectronics.pdf)
