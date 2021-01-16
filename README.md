@@ -15,6 +15,9 @@ This software cyclically generates a 2D map of environment using RPLIDAR A3M1 an
 - [Thanks](#thanks)
 
 ## Gallery 
+
+### Video: [https://www.youtube.com/watch?v=OUqbe0YduO4](https://www.youtube.com/watch?v=OUqbe0YduO4)
+
 Garden
 <p align = "center">
 <img src="img/gallery/garden.jpg" width="576"/>
